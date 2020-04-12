@@ -4,8 +4,8 @@
 class TerraformProviderZeit < Formula
   desc "terraform-provider-zeit"
   homepage "https://github.com/ondrejsika/terraform-provider-zeit"
-  url "https://github.com/ondrejsika/terraform-provider-zeit.git"
-      # :tag      => "v1.3.4"
+  url "https://github.com/ondrejsika/terraform-provider-zeit.git",
+      :tag      => "v1.3.2"
       # :revision => "3af4987cd9a61c2e915bcca410884c6e35f93060"
   head "https://github.com/ondrejsika/terraform-provider-zeit.git"
 
