@@ -28,6 +28,7 @@ class TerraformProviderZeit < Formula
     (buildpath/"bin").mkpath
 
     cd "src/github.com/ondrejsika/terraform-provider-zeit" do
+      system "go", "get"
       system "go", "build"
       bin.install "terraform-provider-zeit"
       prefix.install_metafiles
